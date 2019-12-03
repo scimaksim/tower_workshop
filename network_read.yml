@@ -9,7 +9,7 @@
         name: read_interfaces
 
 - name: build report with facts
-  hosts: ansible
+  hosts: all
   gather_facts: no
 
   tasks:
