@@ -1,6 +1,6 @@
 ---
 - name: convert interface to structured data
-  hosts: all
+  hosts: ios-xe-mgmt.cisco.com
   gather_facts: no
 
   tasks:
